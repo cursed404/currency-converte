@@ -9,7 +9,7 @@
             :key="currencyCode"
             :value="currencyCode"
           >
-            {{ currencyCode }}
+            {{ currencyCode }} - {{ rate }}
           </option>
         </select>
         <input
@@ -26,7 +26,7 @@
             :key="currencyCode"
             :value="currencyCode"
           >
-            {{ currencyCode }}
+            {{ currencyCode }} - {{ rate }}
           </option>
         </select>
         <input
